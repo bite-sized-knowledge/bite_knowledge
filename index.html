@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BITE</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-white text-black font-['Pretendard']">
+    <!-- 전체 레이아웃 래퍼 -->
+    <div class="w-full px-6 sm:px-12">
+      <!-- 헤더 -->
+      <header class="w-full max-w-[1440px] mx-auto flex justify-between items-center py-4 sm:py-8">
+        <!-- 로고 -->
+        <img src="img/logo.png" alt="로고" class="w-[58px] h-[20px] sm:w-[144px] sm:h-[50px]" />
+        <!-- 링크 -->
+        <a href="#" class="text-[#171717] text-sm sm:text-base font-medium">
+          개인정보처리방침
+        </a>
+      </header>
+
+      <!-- 배너 -->
+      <section class="max-w-[1440px] mx-auto mt-4 sm:mt-12 mb-12 sm:mb-20">
+        <img
+          src="img/banner.png"
+          alt="배너"
+          class="w-full h-auto object-cover rounded-[10px] sm:rounded-[40px]"
+        />
+      </section>
+    </div>
+
+    <!-- 주요 기능 -->
+    <section class="flex flex-col items-center gap-8 sm:gap-20 mb-20 px-6">
+      <h2 class="text-2xl sm:text-[40px] font-semibold text-center">주요 기능</h2>
+      <div class="flex flex-wrap justify-center gap-8 sm:gap-12">
+        <!-- 카드 1 -->
+        <div class="bg-[#F7F7F7] rounded-[20px] w-[280px] sm:w-[380px] h-[280px] sm:h-[380px] flex flex-col items-center justify-center gap-6 sm:gap-12">
+          <img
+            src="img/thumbs_up.png"
+            alt="좋아요"
+            class="w-[120px] sm:w-[200px] h-[120px] sm:h-[200px] object-cover"
+          />
+          <p class="text-base sm:text-2xl font-medium text-center">
+            마음에 드는 글을 추천받아요
+          </p>
+        </div>
+
+        <!-- 카드 2 -->
+        <div class="bg-[#F7F7F7] rounded-[20px] w-[280px] sm:w-[380px] h-[280px] sm:h-[380px] flex flex-col items-center justify-center gap-6 sm:gap-12">
+          <img
+            src="img/search.png"
+            alt="돋보기"
+            class="w-[120px] sm:w-[200px] h-[120px] sm:h-[200px] object-cover transform rotate-320"
+          />
+          <p class="text-base sm:text-2xl font-medium text-center">
+            유익한 글을 탐색해요
+          </p>
+        </div>
+
+        <!-- 카드 3 -->
+        <div class="bg-[#F7F7F7] rounded-[20px] w-[280px] sm:w-[380px] h-[280px] sm:h-[380px] flex flex-col items-center justify-center gap-6 sm:gap-12">
+          <img
+            src="img/bookmark.png"
+            alt="북마크"
+            class="w-[120px] sm:w-[200px] h-[120px] sm:h-[200px] object-cover"
+          />
+          <p class="text-base sm:text-2xl font-medium text-center">
+            북마크로 저장해요
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="flex flex-col items-center gap-8 sm:gap-20 mb-20 px-6">
+      <h2 class="text-2xl sm:text-[40px] font-semibold text-center">Contact</h2>
+      <div class="flex flex-col sm:flex-row justify-center items-center gap-12">
+        <!-- 앱스토어 -->
+        <a
+          href="https://www.apple.com/kr/app-store/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="flex flex-col items-center gap-6"
+        >
+          <img
+            src="img/appstore.png"
+            alt="앱스토어"
+            class="w-[100px] sm:w-[140px] h-[100px] sm:h-[140px]"
+          />
+          <p class="text-base sm:text-2xl font-medium text-center">
+            앱스토어 바로가기
+          </p>
+        </a>
+
+        <!-- 인스타그램 -->
+        <a
+          href="https://www.instagram.com/bite_knowledge?igsh=MWpzZDVrYW5oMW9uYw%3D%3D&utm_source=qr"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="flex flex-col items-center gap-6"
+        >
+          <img
+            src="img/instagram.png"
+            alt="인스타그램"
+            class="w-[100px] sm:w-[140px] h-[100px] sm:h-[140px]"
+          />
+          <p class="text-base sm:text-2xl font-medium text-center">
+            인스타그램 바로가기
+          </p>
+        </a>
+      </div>
+    </section>
+
+    <!-- 푸터 -->
+    <footer class="bg-[#333333] w-full">
+      <div class="max-w-[1440px] mx-auto px-4 py-8 flex flex-col items-center text-center">
+        <p class="text-[#FAFAFA] text-sm sm:text-base font-medium">
+          bite.sized.knowledge.dev@gmail.com
+        </p>
+        <p class="text-[#FAFAFA] text-sm sm:text-base font-medium mt-2">
+          © 2025 BITE. All rights reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
